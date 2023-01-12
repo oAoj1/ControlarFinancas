@@ -1,5 +1,5 @@
-import model503020 from "../ItenMap/50-30-20"
-import modelFreeFinances from "../ItenMap/FreeFinances"
+import model503020 from "../ItensMap/50-30-20"
+import modelFreeFinances from "../ItensMap/FreeFinances"
 
 export const metodosArray = [
     {
