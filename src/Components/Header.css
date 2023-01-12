@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 2rem;
+    background: linear-gradient(45deg,#02fa1b,#02fa65);
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.5));
+    border-radius: 10px;
+}
+
+.titleHeader{
+    margin: auto;
+    text-align: center;
+}
+
+.titleHeader h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.titleHeader span{
+    font-size: 0.75em;
+}
+
+.logoHeader svg{
+    font-size: 1.5em;
+}

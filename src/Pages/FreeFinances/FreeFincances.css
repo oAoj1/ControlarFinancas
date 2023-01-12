@@ -1,0 +1,71 @@
+.freeFinances{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.limite{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    max-width: max-content;
+    margin:2rem auto;
+}
+
+form input{
+    font-size: 1.5em;
+}
+
+form input:nth-child(1),
+form input:nth-child(2),
+form input:nth-child(3){
+    max-width: 250px;
+}
+
+form input:nth-child(4){
+    max-width: 300px;
+    font-size: 2.5em;
+}
+
+.percentensContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percentensContainer input{
+    margin:0 1rem;
+}
+
+.moneyContainer{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.resultadoFree{
+    list-style-type: none;
+    margin:2rem auto;
+}
+
+.resultadoFree li{
+    font-size: 2em;
+}
+
+.erro{
+    font-size: 1.5em;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.returnContainer{
+    margin:2rem auto;
+    display: flex;
+}

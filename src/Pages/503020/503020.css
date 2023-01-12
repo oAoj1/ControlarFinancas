@@ -1,0 +1,79 @@
+
+.cinquentaTrintaVinteContainer{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aviso{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+input{
+    font-size: 2em;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+button{
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background-color: #ccc;
+}
+
+button:active{
+    transform: translateY(5px);
+}
+
+form{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resultado503020{
+    margin: 2rem auto;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.resultado503020 li{
+    font-size: 2em;
+}
+
+.returnContainer{
+    margin: 1rem 0 0 0;
+}
+
+.returnContainer a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.returnContainer button{
+    font-size: 2em;
+    padding: 10px;
+}
