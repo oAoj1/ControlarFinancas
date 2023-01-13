@@ -70,19 +70,19 @@ export default function FreeFincances() {
             <input
               type="number"
               onChange={(first) => setFirstPercent(first.target.value)}
-              placeholder="Gastos fundamentais"
+              placeholder="% Gastos fundamentais"
               maxLength={3}
             />
             <input
               type="number"
               onChange={(second) => setSecondPercent(second.target.value)}
-              placeholder="Gastos pessoais"
+              placeholder="% Gastos pessoais"
               maxLength={3}
             />
             <input
               type="number"
               onChange={(third) => setThirdPercent(third.target.value)}
-              placeholder="Reserva de emergência"
+              placeholder="% Reserva de emergência"
               maxLength={3}
             />
           </div>
