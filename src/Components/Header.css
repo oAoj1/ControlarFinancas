@@ -26,3 +26,15 @@ header{
 .logoHeader svg{
     font-size: 1.5em;
 }
+
+@media screen and (max-width:768px){
+    .titleHeader h1{
+        font-size: 1em;
+    }
+    .titleHeader span{
+        font-size: 0.5em;
+    }
+    .logoHeader svg{
+        font-size: 1em;
+    }
+}

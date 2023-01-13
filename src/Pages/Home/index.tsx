@@ -7,7 +7,6 @@ export default function Home(){
     return(
         <div className='home'>
             <Header/>
-            <h2>Escolha o método</h2>
             
             <ul className='metodosContainer'>
                 {metodosArray.map(metods => (

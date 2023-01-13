@@ -1,11 +1,35 @@
 
 .cinquentaTrintaVinteContainer{
     width: 100%;
-    height: 100vh;
     justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.info503020{
+    width: 100%;
+    max-width: 60%;
+    margin: 2rem auto;
+}
+
+.info503020 h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+.info503020 p{
+    margin: 1rem;
+    font-size: 1.5em;
+}
+
+.info503020 ul{
+    margin: 1rem 0;
+    list-style-type: none;
+}
+
+.info503020 ul li{
+    font-size: 1.5em;
 }
 
 .aviso{
@@ -43,7 +67,7 @@ button:active{
 }
 
 form{
-    margin: 1rem 0;
+    margin: 0 0 2rem 0;
     display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
@@ -77,3 +101,4 @@ form{
     font-size: 2em;
     padding: 10px;
 }
+

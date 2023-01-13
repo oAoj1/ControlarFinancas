@@ -35,6 +35,16 @@ export default function Metodo503020(){
             <Header/>
                 <div className='cinquentaTrintaVinteContainer'>
 
+                <div className="info503020">
+                    <h3>O que é o metodo 50-30-20?</h3>
+                    <p>Muitas pessoas usam esse método para controlar suas financas fundamentais, pessoais e reservas de emergencia</p>
+                    <ul>
+                        <li> <strong>50%: Gastos fundamentais -</strong> transporte, mercado, contas</li>
+                        <li> <strong>30%: Gastos pessoais - </strong> restaurantes, cinemas, viagens, serviços streaming</li>
+                        <li> <strong>20%: Reservas de emergencia ou investimentos</strong> </li>
+                    </ul>
+                </div>
+
                 <form onSubmit={enviar503020}>
                     <input 
                         type="number" 

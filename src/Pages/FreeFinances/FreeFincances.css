@@ -6,6 +6,22 @@
     flex-direction: column;
 }
 
+.infoFreeFinances{
+    width: 100%;
+    max-width: 60%;
+    margin: 2rem auto;
+}
+
+.infoFreeFinances h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+.infoFreeFinances p{
+    margin: 1rem;
+    font-size: 1.5em;
+}
+
 .limite{
     font-size: 1.5em;
     text-align: center;
@@ -68,4 +84,26 @@ form input:nth-child(4){
 .returnContainer{
     margin:2rem auto;
     display: flex;
+}
+
+@media screen and (max-width:768px){
+    form{
+        max-width: 50%;
+    }   
+
+    .percentensContainer{
+        flex-direction: column;
+    }
+
+    .percentensContainer input{
+        margin: 1rem 0;
+    }
+
+    .moneyContainer{
+        margin: 3rem 0;
+    }
+
+    .returnContainer{
+        padding-bottom: 2rem;
+    }
 }
